@@ -1,3 +1,8 @@
+**Chaves de segurança**
+```php
+https://api.wordpress.org/secret-key/1.1/salt/
+```
+
 **Desativa o sistema de revisões**
 ```php
 define('WP_POST_REVISIONS', false );

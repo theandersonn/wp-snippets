@@ -3,44 +3,43 @@
 https://api.wordpress.org/secret-key/1.1/salt/
 ```
 
-**Desativa o sistema de revisões**
+**Contact form - remove BRs**
 ```php
-define('WP_POST_REVISIONS', false );
+define ('WPCF7_AUTOP', false );
 ```
 
-**Deleta todas as revisões armazenadas no banco de dados**
+**Debugging mode (padrão) - desativa**
+```php
+define('WP_DEBUG', false);
+```
+
+**Editor de temas e plugins - desativa**
+```php
+define('DISALLOW_FILE_EDIT', true);
+```
+
+**FTP para instalar plugins - desabilita**
+```php
+define('FS_METHOD','direct');
+```
+
+**Revisões de posts - deleta todas**
 ```sql
 SQL DELETE FROM wp_posts
 	WHERE post_type = “revision”;
 ```
 
-**Limita o número de revisões de um post**
+**Revisões de posts - desativa**
+```php
+define('WP_POST_REVISIONS', false );
+```
+
+**Revisões de posts - limita o número**
 ```php
 define('WP_POST_REVISIONS', 3);
 ```
 
-**Remove BRs do contact form**
+**Tempo de auto dave - altera**
 ```php
-define ('WPCF7_AUTOP', false );
+define ('AUTOSAVE_INTERVAL', 160); // segundos
 ```
-**Desativa editor de temas e plugins**
-```php
-define('DISALLOW_FILE_EDIT', true);
-```
-
-**Desabilitar debugging mode (padrão)**
-```php
-define('WP_DEBUG', false);
-```
-
-**Desabilita solicitação de ftp para instalar plugins**
-```php
-define('FS_METHOD','direct');
-```
-
-**Habilitar debugging mode**
-```php
-define('WP_DEBUG', true);
-```
-
-

@@ -23,6 +23,15 @@ define('WP_POST_REVISIONS', 3);
 ```php
 define ('WPCF7_AUTOP', false );
 ```
+**Desativa editor de temas e plugins**
+```php
+define('DISALLOW_FILE_EDIT', true);
+```
+
+**Desabilitar debugging mode (padrão)**
+```php
+define('WP_DEBUG', false);
+```
 
 **Desabilita solicitação de ftp para instalar plugins**
 ```php
@@ -34,7 +43,4 @@ define('FS_METHOD','direct');
 define('WP_DEBUG', true);
 ```
 
-**Desabilitar debugging mode (padrão)**
-```php
-define('WP_DEBUG', false);
-```
+

@@ -43,3 +43,8 @@ define('WP_POST_REVISIONS', 3);
 ```php
 define ('AUTOSAVE_INTERVAL', 160); // segundos
 ```
+
+**Tempo que o conteúdo fica na lixeira**
+```php
+define ('EMPTY_TRASH_DAYS', 7); // padrão 30 dias, 0 para desabilitar
+```

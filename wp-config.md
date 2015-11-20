@@ -1,3 +1,8 @@
+**Atualização automática do WordPress - desabilitar**
+```php
+define ( 'AUTOMATIC_UPDATER_DISABLED' , true);
+```
+
 **Chaves de segurança**
 ```php
 https://api.wordpress.org/secret-key/1.1/salt/

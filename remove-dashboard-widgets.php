@@ -1,6 +1,6 @@
 <?php
 /*--------------------------------------------------------------
-DESATIVAR WIDGETS DO DASHBOARD ADMIN PADRÃO
+	DESATIVAR WIDGETS DO DASHBOARD ADMIN PADRÃO
 --------------------------------------------------------------*/
 add_action('wp_dashboard_setup', 'btwp_remove_dashboard_widgets');
 

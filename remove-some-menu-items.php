@@ -1,6 +1,6 @@
 <?php
 /*--------------------------------------------------------------
-REMOVE ITENS MENU DO DASHBOARD ADMIN
+REMOVE ITENS DO MENU DASHBOARD ADMIN
 --------------------------------------------------------------*/
 add_filter( 'custom_menu_order', 'btwp_toggle_custom_menu_order' );
 function btwp_toggle_custom_menu_order(){

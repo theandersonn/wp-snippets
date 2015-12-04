@@ -1,7 +1,8 @@
 <?php
-//CONTAR E EXIBIR A QUANTIDADE DE ACESSOS DE CADA POSTS
-
-function getPostViews($postID){
+/*--------------------------------------------------------------
+CONTAR E EXIBIR A QUANTIDADE DE ACESSOS DE CADA POSTS
+--------------------------------------------------------------*/
+function get_post_views($postID){
     $count_key = '_post_views_count';
     $count = get_post_meta($postID, $count_key, true);
     if($count==''){
@@ -12,7 +13,7 @@ function getPostViews($postID){
     return $count.' Visualizações';
 }
 
-function setPostViews($postID) {
+function set_post_views($postID) {
     $count_key = '_post_views_count';
     $count = get_post_meta($postID, $count_key, true);
     if($count==''){
@@ -24,5 +25,3 @@ function setPostViews($postID) {
         update_post_meta($postID, $count_key, $count);
     }
 }
-
-?>

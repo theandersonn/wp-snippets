@@ -1,17 +1,8 @@
 <?php
-//COLOCAR ESTE CÓDIGO QUE ESTA COMENTADO NA TEMPLATE DE PÁGINA
-// $args = array(
-// 	'tag' => get_option('periodo'),
-// 	'post_type' => 'page',
-// 	'meta_key' => 'especial' 
-// 	);
-
-// $id_atual = $post->ID;
-// $the_query = new WP_Query( $args );
-
-
-
-function nav_entre_paginas($id_atual,$the_query){
+/*--------------------------------------------------------------
+	NAVEGAÇÃO ENTRE PÁGINAS
+--------------------------------------------------------------*/
+function navigation_between_pages($id_atual,$the_query){
 
     $count = count( $the_query->posts );
 
@@ -55,4 +46,12 @@ function nav_entre_paginas($id_atual,$the_query){
     wp_reset_postdata();
 }
 
-?>
+//COLOCAR ESTE CÓDIGO QUE ESTA COMENTADO NA TEMPLATE DE PÁGINA
+// $args = array(
+// 	'tag' => get_option('periodo'),
+// 	'post_type' => 'page',
+// 	'meta_key' => 'especial'
+// 	);
+
+// $id_atual = $post->ID;
+// $the_query = new WP_Query( $args );

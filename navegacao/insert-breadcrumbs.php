@@ -2,7 +2,7 @@
 /*--------------------------------------------------------------
 	INSERINDO BREADCRUMBS
 --------------------------------------------------------------*/
-function btwp_breadcrumbs() {
+function btwp_insert_breadcrumb() {
 	echo '<ul class="breadcrumbs">';
 		if ( !is_home() ) {
 			echo '<li><a href="';
@@ -10,7 +10,7 @@ function btwp_breadcrumbs() {
 			echo '">';
 			echo 'Home';
 			echo "</a> » </li>";
-		
+
 			if ( is_category() || is_single() ) {
 				echo '<li>';
 				the_category(' </li><li> ');
@@ -20,7 +20,7 @@ function btwp_breadcrumbs() {
 					the_title();
 					echo '</li>';
 				}
-			
+
 			} elseif ( is_page() ) {
 				echo '<li>';
 				echo the_title();
@@ -41,4 +41,4 @@ function btwp_breadcrumbs() {
 ?>
 
 <!-- Insira -->
-<?php //btwp_breadcrumb(); ?>
+<?php //btwp_insert_breadcrumb(); ?>

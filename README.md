@@ -1,5 +1,6 @@
-# wp-snippets
-Code Snippet Library for WordPress 
+# WP Snippets
+
+> Code Snippet Library for WordPress
 
 ##### CSS
 - [wp native](https://github.com/theandersonn/wp-snippets/blob/master/css/wp-native.css)
@@ -12,7 +13,7 @@ Code Snippet Library for WordPress
 - [remove some menu items](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/remove-some-menu-items.php)
 - [unregister default widgets](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/unregister-default-widgets.php)
 
-##### Navegação
+##### Navigation
 - [get description menu](https://github.com/theandersonn/wp-snippets/blob/master/navegacao/get-description-menu.php)
 - [insert breadcrumbs](https://github.com/theandersonn/wp-snippets/blob/master/navegacao/insert-breadcrumbs.php)
 
@@ -42,6 +43,9 @@ Code Snippet Library for WordPress
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
+## Questions and Suggestions
+If you have any questions or suggestions , open an [issue](https://github.com/theandersonn/wp-snippets/issues/new) and send your feedback.
 
 ## License
 

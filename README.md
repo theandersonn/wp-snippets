@@ -34,3 +34,7 @@ Code Snippet Library for WordPress
 
 ##### Wp-config
 - [wp config](https://github.com/theandersonn/wp-snippets/tree/master/wp-config)
+
+## License
+
+[MIT](https://github.com/theandersonn/wp-snippets/blob/master/LICENSE-MIT.md) © [Anderson Nascimento](https://github.com/theandersonn)

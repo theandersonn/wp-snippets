@@ -25,6 +25,7 @@
 ##### Post
 - [count view posts](https://github.com/theandersonn/wp-snippets/blob/master/post/count-view-posts.php)
 - [insert more buttons editor](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-more-buttons-editor.php)
+- [insert pagination](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination.php)
 - [view popular posts](https://github.com/theandersonn/wp-snippets/blob/master/post/view-popular-posts.php)
 
 ##### Theme Suport

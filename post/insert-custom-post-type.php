@@ -32,3 +32,19 @@ function btwp_custom_post_portfolio(){
 	register_post_type('portfolio', $args);
 }
 
+// MODIFICA MENSAGENS DE ATUALIZAÇÃO
+add_filter('post_updated_messages', 'btwp_updated_messages');
+
+function btwp_updated_messages ($messages){
+	global $post_ID;
+
+	$messages['portfolio'] = array(
+		0 => '',
+		1 => 'Job Atualizado. <a href="'. esc_url( get_permalink( $post_ID ) ) .'">Visualizar Job</a>',
+		4 => 'Job Atualizado.',
+		6 => 'Job Publicado. <a href="'. esc_url( get_permalink( $post_ID ) ) .'">Visualizar Job</a>',
+		7 => 'Job Salvo.'
+	);
+
+	return $messages;
+}

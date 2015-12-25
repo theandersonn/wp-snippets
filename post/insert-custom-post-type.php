@@ -48,3 +48,48 @@ function btwp_updated_messages ($messages){
 
 	return $messages;
 }
+
+/*--------------------------------------------------------------
+	INSERE METABOX
+--------------------------------------------------------------*/
+add_action('add_meta_boxes', 'btwp_portfolio_link_box');
+
+
+function btwp_portfolio_link_box(){
+	
+	add_meta_box(
+		'portfolio_link_box',
+		'Link do Job',
+		'btwp_portfolio_link_content',
+		'portfolio',
+		'side',
+		'low'
+	);	
+}
+
+// INSERE METABOX CAMPOS DE FORMULÁRIO
+function btwp_portfolio_link_content(){
+
+	$link = get_post_meta( get_the_ID(), 'portfolio_link', true )
+
+	?>
+	<label for="portfolio_link"></label>
+	<input type="text" id="portfolio_link" name="portfolio_link" placeholder="Insira o link" value="<?php echo $link; ?>" style="width: 100%; height: 2.5em; margin: 5px 0;"/>
+	<?php
+}
+
+// TRATAMENTO DE DADOS AO SALVAR 
+add_action('save_post', 'btwp_portfolio_link_save');
+
+function btwp_portfolio_link_save( $post_id ){
+
+	if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
+		return;
+
+	if ( 'portfolio' != get_post_type() || !current_user_can('edit_post', $post_id) )
+		return;
+
+	$portfolio_link = $_POST['portfolio_link'];
+
+	update_post_meta( $post_id, 'portfolio_link', $portfolio_link );
+}

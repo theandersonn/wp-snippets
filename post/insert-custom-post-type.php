@@ -50,6 +50,37 @@ function btwp_updated_messages ($messages){
 }
 
 /*--------------------------------------------------------------
+	REGISTRA TAXONOMIES -> PORTFÓLO
+--------------------------------------------------------------*/
+add_action('init', 'btwp_taxonomies_portfolio');
+
+function btwp_taxonomies_portfolio(){
+
+	$labels = array(
+		'name' 					=> 'Portfólio',
+		'singular_name' 		=> 'Portfólio',
+		'add_new' 				=> 'Adicionar novo',
+		'add_new_item' 			=> 'Adicionar novo Job',
+		'edit_item' 			=> 'Editar Job',
+		'new_item' 				=> 'Novo Job',
+		'all_items' 			=> 'Todos Jobs',
+		'view_item' 			=> 'Visualizar Job',
+		'search_items' 			=> 'Procurar Job',
+		'not_found' 			=> 'Nenhum Job encontrado',
+		'not_found_in_trash' 	=> 'Nenhum Job encontrado na lixeira',
+		'parent_item_colom'		=> '',
+		'menu_name'				=> 'Categorias de Portfólio'
+	);
+
+	$args = array(
+		'labels'			=> $labels,
+		'hierarchical'		=> true
+	);
+
+	register_taxonomy('portfolio_category', 'portfolio', $args);
+}
+
+/*--------------------------------------------------------------
 	INSERE METABOX
 --------------------------------------------------------------*/
 add_action('add_meta_boxes', 'btwp_portfolio_link_box');
@@ -70,7 +101,7 @@ function btwp_portfolio_link_box(){
 // INSERE METABOX CAMPOS DE FORMULÁRIO
 function btwp_portfolio_link_content(){
 
-	$link = get_post_meta( get_the_ID(), 'portfolio_link', true )
+	$link = get_post_meta( get_the_ID(), '_portfolio_link', true )
 
 	?>
 	<label for="portfolio_link"></label>
@@ -91,5 +122,5 @@ function btwp_portfolio_link_save( $post_id ){
 
 	$portfolio_link = $_POST['portfolio_link'];
 
-	update_post_meta( $post_id, 'portfolio_link', $portfolio_link );
+	update_post_meta( $post_id, '_portfolio_link', $portfolio_link );
 }

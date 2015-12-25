@@ -59,15 +59,15 @@ function btwp_taxonomies_portfolio(){
 	$labels = array(
 		'name' 					=> 'Portfólio',
 		'singular_name' 		=> 'Portfólio',
-		'add_new' 				=> 'Adicionar novo',
-		'add_new_item' 			=> 'Adicionar novo Job',
-		'edit_item' 			=> 'Editar Job',
-		'new_item' 				=> 'Novo Job',
-		'all_items' 			=> 'Todos Jobs',
-		'view_item' 			=> 'Visualizar Job',
-		'search_items' 			=> 'Procurar Job',
-		'not_found' 			=> 'Nenhum Job encontrado',
-		'not_found_in_trash' 	=> 'Nenhum Job encontrado na lixeira',
+		'add_new' 				=> 'Adicionar nova',
+		'add_new_item' 			=> 'Adicionar nova Categoria',
+		'edit_item' 			=> 'Editar Categoria',
+		'new_item' 				=> 'Nova Categoria',
+		'all_items' 			=> 'Todas as Categorias',
+		'view_item' 			=> 'Visualizar Categoria',
+		'search_items' 			=> 'Procurar Categoria',
+		'not_found' 			=> 'Nenhuma Categoria encontrada',
+		'not_found_in_trash' 	=> 'Nenhuma Categoria encontrada na lixeira',
 		'parent_item_colom'		=> '',
 		'menu_name'				=> 'Categorias de Portfólio'
 	);
@@ -124,3 +124,33 @@ function btwp_portfolio_link_save( $post_id ){
 
 	update_post_meta( $post_id, '_portfolio_link', $portfolio_link );
 }
+
+/*--------------------------------------------------------------
+	LOOP PERSONALIZADO PARA FILTRAR TAXONOMIAS
+--------------------------------------------------------------*/
+$args = new WP_query(
+    array(
+        'post_type'         => 'portfolio',
+        'term'              => 'portfolio-categoria', 
+        'posts_per_page'    => 1,
+        'paged'             => $paged,
+        'tax_query'         => array(
+                                    array(
+                                        'taxonomy'  => 'portfolio_category',
+                                        'field'     => 'slug',
+                                        'terms'     => 'sites'
+            )
+        )
+    )
+);
+?>    
+
+<?php if( $args->have_posts() ) : while( $args->have_posts() ) : $args->the_post(); ?> 
+
+<?php the_title(); ?>
+
+<?php the_content(); ?>
+
+<?php echo get_post_meta($post->ID, '_portfolio_link', true);?>
+
+<?php endwhile; endif; wp_reset_postdata(); ?> 

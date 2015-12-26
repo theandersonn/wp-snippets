@@ -139,7 +139,7 @@ function btwp_portfolio_link_content(){
 
 	?>
 	<label for="portfolio_link"></label>
-	<input type="text" id="portfolio_link" name="portfolio_link" placeholder="Insira o link" value="<?php echo $link; ?>" style="width: 100%; height: 2.5em; margin: 5px 0;"/>
+	<input type="text" id="portfolio_link" name="portfolio_link" placeholder="Insira o link" value="<?php echo esc_attr($link); ?>" style="width: 100%; height: 2.5em; margin: 5px 0;"/>
 	<?php
 }
 
@@ -159,7 +159,7 @@ function btwp_portfolio_link_save( $post_id ){
 	// VERIFICA SE ESTÁ RECEBENDO O NONCE E SE OS DADOS ESTÃO VINDO DO WORDPRESS
 	check_admin_referer('portfolio_metabox_form_save', 'portfolio_link_box_content_nonce');
 
-	$portfolio_link = $_POST['portfolio_link'];
+	$portfolio_link = sanitize_text_field($_POST['portfolio_link']);
 
 	update_post_meta( $post_id, '_portfolio_link', $portfolio_link );
 }

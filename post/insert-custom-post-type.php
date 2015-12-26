@@ -81,6 +81,36 @@ function btwp_taxonomies_portfolio(){
 }
 
 /*--------------------------------------------------------------
+	MOSTRAR FILTRO POR TAXONOMIA NA LISTAGEM DOS POSTS
+--------------------------------------------------------------*/
+add_action( 'restrict_manage_posts', 'btwp_show_filter_taxonomy' );
+
+function btwp_show_filter_taxonomy() {
+	
+	global $typenow;
+	$taxonomy = 'portfolio_category';
+
+	if( $typenow == 'portfolio' ){
+		$filters = array($taxonomy);
+		
+		foreach ($filters as $tax_slug) {
+			$tax_obj = get_taxonomy($tax_slug);
+			$tax_name = $tax_obj->labels->name;
+			$terms = get_terms($tax_slug);
+		
+			echo "<select name='$tax_slug' id='$tax_slug' class='postform'>";
+			echo "<option value=''>Mostrar tudo</option>";
+		
+				foreach ($terms as $term) { 
+					echo '<option value='. $term->slug, $_GET[$tax_slug] == $term->slug ? ' selected="selected"' : '','>' . $term->name .' (' . $term->count .')</option>'; 
+				}
+		
+			echo "</select>";
+		}
+	}
+}
+
+/*--------------------------------------------------------------
 	INSERE METABOX
 --------------------------------------------------------------*/
 add_action('add_meta_boxes', 'btwp_portfolio_link_box');

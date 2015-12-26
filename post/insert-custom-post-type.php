@@ -25,6 +25,7 @@ function btwp_custom_post_portfolio(){
 		'labels'			=> $labels,
 		'public'			=> true,
 		'has_archive' 		=> true,
+		'menu_icon' 		=> 'dashicons-images-alt2', // https://developer.wordpress.org/resource/dashicons/		
 		'menu_position'		=> 5,
 		'supports' 			=> array ('title', 'editor', 'thumbnail', 'excerpt', 'comments')
 	);
@@ -131,6 +132,9 @@ function btwp_portfolio_link_box(){
 // INSERE METABOX CAMPOS DE FORMULÁRIO
 function btwp_portfolio_link_content(){
 
+	// INSERE NONCES
+	wp_nonce_field('portfolio_metabox_form_save', 'portfolio_link_box_content_nonce');	
+
 	$link = get_post_meta( get_the_ID(), '_portfolio_link', true )
 
 	?>
@@ -144,11 +148,16 @@ add_action('save_post', 'btwp_portfolio_link_save');
 
 function btwp_portfolio_link_save( $post_id ){
 
+	// VERIFICA  CONSTANTES
 	if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
 		return;
 
+	// VERIFICA SE O POST TYPE ESTÁ CORRETO
 	if ( 'portfolio' != get_post_type() || !current_user_can('edit_post', $post_id) )
 		return;
+
+	// VERIFICA SE ESTÁ RECEBENDO O NONCE E SE OS DADOS ESTÃO VINDO DO WORDPRESS
+	check_admin_referer('portfolio_metabox_form_save', 'portfolio_link_box_content_nonce');
 
 	$portfolio_link = $_POST['portfolio_link'];
 

@@ -24,6 +24,7 @@
 
 ##### Post
 - [count view posts](https://github.com/theandersonn/wp-snippets/blob/master/post/count-view-posts.php)
+- [insert custom post type](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-custom-post-type.php)
 - [insert more buttons editor](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-more-buttons-editor.php)
 - [insert pagination](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination.php)
 - [view popular posts](https://github.com/theandersonn/wp-snippets/blob/master/post/view-popular-posts.php)

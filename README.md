@@ -6,16 +6,18 @@
 - [wp native](https://github.com/theandersonn/wp-snippets/blob/master/css/wp-native.css)
 
 ##### Dashboard
+- [insert custom dashboard widgets](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/hide-acf-menu.php)
 - [insert custom dashboard widgets](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/insert-custom-dashboard-widgets.php)
 - [insert custom toolbar link](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/insert-custom-toolbar-link.php)
+- [insert custom toolbar link](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/insert-user-id-column.php)
 - [remove dashboard widgets](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/remove-dashboard-widgets.php)
 - [remove menus dashboard](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/remove-menus-dashboard.php)
 - [remove some menu items](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/remove-some-menu-items.php)
 - [unregister default widgets](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/unregister-default-widgets.php)
 
 ##### Navigation
-- [get description menu](https://github.com/theandersonn/wp-snippets/blob/master/navegacao/get-description-menu.php)
-- [insert breadcrumbs](https://github.com/theandersonn/wp-snippets/blob/master/navegacao/insert-breadcrumbs.php)
+- [get description menu](https://github.com/theandersonn/wp-snippets/blob/master/navigation/get-description-menu.php)
+- [insert breadcrumbs](https://github.com/theandersonn/wp-snippets/blob/master/navigation/insert-breadcrumbs.php)
 
 
 ##### Page

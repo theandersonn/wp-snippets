@@ -32,6 +32,7 @@
 - [view popular posts](https://github.com/theandersonn/wp-snippets/blob/master/post/view-popular-posts.php)
 
 ##### Theme Suport
+- [change default error messages](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/change-default-error-messages.php)
 - [remove image size attributes](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-image-size-attributes.php)
 - [remove junk header](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-junk-header.php)
 - [remove recent comment style](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-recent-comment-style.php)

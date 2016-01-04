@@ -6,6 +6,7 @@
 - [wp native](https://github.com/theandersonn/wp-snippets/blob/master/css/wp-native.css)
 
 ##### Dashboard
+- [disable drag metabox dashboard](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/disable-drag-metabox-dashboard.php)
 - [hide acf menu](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/hide-acf-menu.php)
 - [insert custom dashboard widgets](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/insert-custom-dashboard-widgets.php)
 - [insert custom toolbar link](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/insert-custom-toolbar-link.php)

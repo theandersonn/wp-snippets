@@ -5,6 +5,8 @@
 function btwp_show_message( $message, $errormsg = false ) {
 
     if ( $errormsg ) {
+        // error    => red
+        // updated  => green
         echo '<div id="message" class="error">';
     } else {
         echo '<div id="message" class="updated fade">';

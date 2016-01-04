@@ -14,6 +14,7 @@
 - [remove dashboard widgets](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/remove-dashboard-widgets.php)
 - [remove menus dashboard](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/remove-menus-dashboard.php)
 - [remove some menu items](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/remove-some-menu-items.php)
+- [show admin message](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/show-admin-message.php)
 - [unregister default widgets](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/unregister-default-widgets.php)
 
 ##### Navigation

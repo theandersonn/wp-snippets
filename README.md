@@ -38,6 +38,7 @@
 - [change default error messages](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/change-default-error-messages.php)
 - [remove image size attributes](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-image-size-attributes.php)
 - [hide usernames from comment class](https://github.com/theandersonn/wp-snippets/blob/master/hide-usernames-from-comment-class.php)
+- [remove default image thumbnails](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-default-image-thumbnails.php)
 - [remove junk header](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-junk-header.php)
 - [remove-max-srcset-image-width](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-max-srcset-image-width.php)
 - [remove recent comment style](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-recent-comment-style.php)

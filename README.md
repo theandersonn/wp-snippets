@@ -44,6 +44,7 @@
 - [remove-max-srcset-image-width](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-max-srcset-image-width.php)
 - [remove recent comment style](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-recent-comment-style.php)
 - [remove theme suport](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-theme-suport.php)
+- [user check disables features](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/user-check-disables-features.php)
 
 ##### Wp-config
 - [wp config](https://github.com/theandersonn/wp-snippets/tree/master/wp-config)

@@ -38,6 +38,7 @@
 ##### Theme Suport
 - [adjust image sizes attr](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/adjust-image-sizes-attr.php)
 - [change default error messages](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/change-default-error-messages.php)
+- [deregister jquery](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/deregister-jquery.php)
 - [remove image size attributes](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-image-size-attributes.php)
 - [hide usernames from comment class](https://github.com/theandersonn/wp-snippets/blob/master/hide-usernames-from-comment-class.php)
 - [remove default image thumbnails](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-default-image-thumbnails.php)

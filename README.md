@@ -46,8 +46,11 @@
 - [remove theme suport](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-theme-suport.php)
 - [user check disables features](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/user-check-disables-features.php)
 
-##### Wp-config
+##### WP-config
 - [wp config](https://github.com/theandersonn/wp-snippets/tree/master/wp-config)
+
+##### .htaccess
+- [.htaccess](https://github.com/theandersonn/htaccess/tree/master/.htaccess)
 
 ## Contributing
 

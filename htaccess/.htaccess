@@ -1,0 +1,4 @@
+```txt
+# disable directory browsing in WordPress
+Options -Indexes
+```

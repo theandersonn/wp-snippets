@@ -29,11 +29,14 @@ define( 'WP_DEBUG_DISPLAY', false );
 define( 'SCRIPT_DEBUG', true );
 ```
 
-**Editor de temas e plugins - desativa**
+**Desabilita a edição de temas e plugins**
 ```php
 define('DISALLOW_FILE_EDIT', true);
 ```
-
+**Desabilita edição e atualização de temas e plugins**
+```php
+define( 'DISALLOW_FILE_MODS', true );
+```
 **FTP para instalar plugins - desabilita**
 ```php
 define('FS_METHOD','direct');

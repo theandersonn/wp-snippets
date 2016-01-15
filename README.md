@@ -52,7 +52,7 @@
 - [wp config](https://github.com/theandersonn/wp-snippets/tree/master/wp-config)
 
 ##### .htaccess
-- [.htaccess](https://github.com/theandersonn/htaccess/tree/master/.htaccess)
+- [.htaccess](https://github.com/theandersonn/wp-snippets/blob/master/htaccess/.htaccess)
 
 ## Contributing
 

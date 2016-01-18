@@ -32,13 +32,14 @@
 ##### Post
 - [change post label](https://github.com/theandersonn/wp-snippets/blob/master/post/change-post-label.php)
 - [count view posts](https://github.com/theandersonn/wp-snippets/blob/master/post/count-view-posts.php)
-- [custom post title](https://github.com/theandersonn/wp-snippets/blob/master/post/custom_post_title.php)
+- [custom post title](https://github.com/theandersonn/wp-snippets/blob/master/post/custom-post-title.php)
 - [insert custom post type](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-custom-post-type.php)
 - [insert more buttons editor](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-more-buttons-editor.php)
 - [insert pagination](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination.php)
 - [view popular posts](https://github.com/theandersonn/wp-snippets/blob/master/post/view-popular-posts.php)
 
 ##### Theme Suport
+- [activate maintenace mode](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/activate-maintenace-mode.php)
 - [adjust image sizes attr](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/adjust-image-sizes-attr.php)
 - [change default error messages](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/change-default-error-messages.php)
 - [deregister jquery](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/deregister-jquery.php)

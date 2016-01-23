@@ -56,6 +56,7 @@
 - [remove recent comment style](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-recent-comment-style.php)
 - [remove theme suport](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-theme-suport.php)
 - [user check disables features](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/user-check-disables-features.php)
+- [stop loading acf js and css all pages](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/stop-loading-acf-js-css-all-pages.php)
 
 ##### WP-config
 - [wp config](https://github.com/theandersonn/wp-snippets/tree/master/wp-config)

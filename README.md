@@ -30,6 +30,7 @@
 - [navigation between pages](https://github.com/theandersonn/wp-snippets/blob/master/page/navigation-between-pages.php)
 
 ##### Post
+- [after all post content](https://github.com/theandersonn/wp-snippets/blob/master/post/after-all-post-content.php)
 - [change post label](https://github.com/theandersonn/wp-snippets/blob/master/post/change-post-label.php)
 - [count view posts](https://github.com/theandersonn/wp-snippets/blob/master/post/count-view-posts.php)
 - [custom post title](https://github.com/theandersonn/wp-snippets/blob/master/post/custom_post_title.php)

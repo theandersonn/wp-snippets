@@ -37,7 +37,7 @@ define('DISALLOW_FILE_EDIT', true);
 ```php
 define( 'DISALLOW_FILE_MODS', true );
 ```
-**FTP para instalar plugins - desabilita**
+**Solicitação FTP para instalar plugins - desabilita**
 ```php
 define('FS_METHOD','direct');
 ```

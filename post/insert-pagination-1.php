@@ -1,8 +1,8 @@
 <?php
 /*--------------------------------------------------------------
-	CRIANDO PAGINAÇÃO
+	INSERT PAGINATION
 --------------------------------------------------------------*/
-function wp_pagination(){
+function btwp_pagination_1(){
     // Don't print empty markup if there's only one page.
     if ( $GLOBALS['wp_query']->max_num_pages < 2 ) {
         return;
@@ -33,6 +33,7 @@ function wp_pagination(){
         'add_args' => array_map( 'urlencode', $query_args ),
         'prev_text' => __('«'),
         'next_text' => __('»'),
+        'type' => 'list'
 
     ) );
 

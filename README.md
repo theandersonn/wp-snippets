@@ -38,7 +38,8 @@
 - [display last modified date](https://github.com/theandersonn/wp-snippets/blob/master/post/display-last-modified-date.php)
 - [insert custom post type](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-custom-post-type.php)
 - [insert more buttons editor](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-more-buttons-editor.php)
-- [insert pagination](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination.php)
+- [insert pagination 1](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination-1.php)
+- [insert pagination 2](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination-2.php)
 - [view popular posts](https://github.com/theandersonn/wp-snippets/blob/master/post/view-popular-posts.php)
 
 ##### Theme Suport

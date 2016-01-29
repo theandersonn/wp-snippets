@@ -1,7 +1,7 @@
-<?php 
+<?php
 /*--------------------------------------------------------------
 	CHANGE DEFAULT ERROR MESSAGES
---------------------------------------------------------------*/ 
+--------------------------------------------------------------*/
 add_filter( 'login_errors', 'btwp_remove_default_login_errors' );
 
 function btwp_remove_default_login_errors() {

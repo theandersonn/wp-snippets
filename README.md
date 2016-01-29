@@ -50,6 +50,7 @@
 - [disable srcset](https://github.com/theandersonn/wp-snippets/blob/master/disable-srcset.php)
 - [get theme information](https://github.com/theandersonn/wp-snippets/blob/master/get-theme-information.php)
 - [hide usernames from comment class](https://github.com/theandersonn/wp-snippets/blob/master/hide-usernames-from-comment-class.php)
+- [random error messages](https://github.com/theandersonn/wp-snippets/blob/master/random-error-messages.php)
 - [remove default image thumbnails](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-default-image-thumbnails.php)
 - [remove image size attributes](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-image-size-attributes.php)
 - [remove junk header](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-junk-header.php)

@@ -67,3 +67,7 @@ define ('AUTOSAVE_INTERVAL', 160); // segundos
 ```php
 define ('EMPTY_TRASH_DAYS', 7); // padrão 30 dias, 0 para desabilitar
 ```
+**Inserir idioma**
+```php
+define ('WPLANG', 'pt_BR');
+```

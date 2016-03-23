@@ -40,6 +40,7 @@
 - [insert more buttons editor](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-more-buttons-editor.php)
 - [insert pagination 1](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination-1.php)
 - [insert pagination 2](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination-2.php)
+- [rename post formats](https://github.com/theandersonn/wp-snippets/blob/master/post/rename-post-formats.php)
 - [view popular posts](https://github.com/theandersonn/wp-snippets/blob/master/post/view-popular-posts.php)
 
 ##### Theme Suport

@@ -58,12 +58,12 @@ define('WP_POST_REVISIONS', false );
 define('WP_POST_REVISIONS', 3);
 ```
 
-**Tempo de auto dave - altera**
+**Limita o tempo de auto save**
 ```php
 define ('AUTOSAVE_INTERVAL', 160); // segundos
 ```
 
-**Tempo que o conteúdo fica na lixeira**
+**Limita o tempo que o conteúdo fica na lixeira**
 ```php
 define ('EMPTY_TRASH_DAYS', 7); // padrão 30 dias, 0 para desabilitar
 ```

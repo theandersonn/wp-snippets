@@ -48,7 +48,7 @@
 - [adjust image sizes attr](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/adjust-image-sizes-attr.php)
 - [change default error messages](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/change-default-error-messages.php)
 - [deregister jquery](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/deregister-jquery.php)
-- [disable srcset](https://github.com/theandersonn/wp-snippets/blob/master/disable-srcset.php)
+- [disable srcset](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/disable-srcset.php)
 - [get theme information](https://github.com/theandersonn/wp-snippets/blob/master/get-theme-information.php)
 - [hide usernames from comment class](https://github.com/theandersonn/wp-snippets/blob/master/hide-usernames-from-comment-class.php)
 - [random error messages](https://github.com/theandersonn/wp-snippets/blob/master/random-error-messages.php)

@@ -232,15 +232,15 @@ function btwp_portfolio_link_save( $post_id ){
 --------------------------------------------------------------*/
 $args = new WP_query(
     array(
-        'post_type'         => 'portfolio',
-        'term'              => 'portfolio-categoria', 
-        'posts_per_page'    => 1,
+        'post_type'         => 'portfolio', // cpt
+        'term'              => 'portfolio_category', // taxonomia category registrada 
+        'posts_per_page'    => -1,
         'paged'             => $paged,
         'tax_query'         => array(
-                                    array(
-                                        'taxonomy'  => 'portfolio_category',
-                                        'field'     => 'slug',
-                                        'terms'     => 'sites'
+							        array(
+							            'taxonomy'  => 'portfolio_tag', // taxonomia tag registrada
+							            'field'     => 'slug',
+							            'terms'     => 'sites' // tag inserida no admin
             )
         )
     )

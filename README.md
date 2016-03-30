@@ -44,7 +44,7 @@
 - [view popular posts](https://github.com/theandersonn/wp-snippets/blob/master/post/view-popular-posts.php)
 
 ##### Robots.txt
-- [after all post content](https://github.com/theandersonn/wp-snippets/blob/master/robots/robots.txt)
+- [robots.txt](https://github.com/theandersonn/wp-snippets/blob/master/robots/robots.md)
 
 ##### Theme Suport
 - [activate maintenace mode](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/activate-maintenace-mode.php)

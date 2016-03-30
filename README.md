@@ -43,6 +43,9 @@
 - [rename post formats](https://github.com/theandersonn/wp-snippets/blob/master/post/rename-post-formats.php)
 - [view popular posts](https://github.com/theandersonn/wp-snippets/blob/master/post/view-popular-posts.php)
 
+##### Robots.txt
+- [after all post content](https://github.com/theandersonn/wp-snippets/blob/master/robots/robots.txt)
+
 ##### Theme Suport
 - [activate maintenace mode](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/activate-maintenace-mode.php)
 - [adjust image sizes attr](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/adjust-image-sizes-attr.php)

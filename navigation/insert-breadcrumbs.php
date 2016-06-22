@@ -3,7 +3,7 @@
 	INSERINDO BREADCRUMBS
 --------------------------------------------------------------*/
 function btwp_insert_breadcrumbs() {
-	echo '<ul class="breadcrumbs">';
+	echo '<ul class="btwp-breadcrumbs">';
 		if ( !is_home() ) {
 			echo '<li><a href="';
 			echo get_option('home');

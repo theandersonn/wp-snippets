@@ -2,7 +2,7 @@
 /*--------------------------------------------------------------
 	INSERINDO BREADCRUMBS
 --------------------------------------------------------------*/
-function btwp_insert_breadcrumb() {
+function btwp_insert_breadcrumbs() {
 	echo '<ul class="breadcrumbs">';
 		if ( !is_home() ) {
 			echo '<li><a href="';
@@ -41,4 +41,21 @@ function btwp_insert_breadcrumb() {
 ?>
 
 <!-- Insira -->
-<?php //btwp_insert_breadcrumb(); ?>
+<?php //btwp_insert_breadcrumbs(); ?>
+
+<!-- SASS-->
+<!-- .btwp-breadcrumbs {
+    li {
+        float: left;
+        margin-right: 10px;
+    }
+
+    li a {
+        margin-right: 10px;
+        text-decoration: none;        
+    }
+
+    li a:hover {
+
+    }
+} -->

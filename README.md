@@ -24,6 +24,7 @@
 ##### Navigation
 - [get description menu](https://github.com/theandersonn/wp-snippets/blob/master/navigation/get-description-menu.php)
 - [insert breadcrumbs](https://github.com/theandersonn/wp-snippets/blob/master/navigation/insert-breadcrumbs.php)
+- [insert breadcrumbs dimox](https://github.com/theandersonn/wp-snippets/blob/master/navigation/insert-dimox-breadcrumbs.php)
 
 
 ##### Page

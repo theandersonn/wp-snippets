@@ -67,6 +67,9 @@
 - [user check disables features](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/user-check-disables-features.php)
 - [stop loading acf js and css all pages](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/stop-loading-acf-js-css-all-pages.php)
 
+##### Tips
+- [maintenace mode with splash](https://github.com/theandersonn/wp-snippets/blob/master/tips/splash/)
+
 ##### WP-config
 - [wp config](https://github.com/theandersonn/wp-snippets/tree/master/wp-config)
 

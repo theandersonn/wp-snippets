@@ -1,8 +1,12 @@
 <?php
 
-/*--------------------------------------------------------------
-	UNREGISTER ALL DEFAULT WP WIDGETS
---------------------------------------------------------------*/
+/**
+ * Unregister default widgets
+ * @link https://codex.wordpress.org/Function_Reference/unregister_widget
+ */
+
+add_action('widgets_init', 'btwp_unregister_default_widgets', 1);
+
 function btwp_unregister_default_widgets() {
     unregister_widget('WP_Widget_Pages');
     unregister_widget('WP_Widget_Calendar');
@@ -16,5 +20,6 @@ function btwp_unregister_default_widgets() {
     unregister_widget('WP_Widget_Recent_Comments');
     unregister_widget('WP_Widget_RSS');
     unregister_widget('WP_Widget_Tag_Cloud');
+    unregister_widget('WP_Nav_Menu_Widget');
+    unregister_widget('Twenty_Eleven_Ephemera_Widget');    
 }
-add_action('widgets_init', 'btwp_unregister_default_widgets', 1);

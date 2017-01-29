@@ -6,6 +6,7 @@
 - [wp native](https://github.com/theandersonn/wp-snippets/blob/master/css/wp-native.css)
 
 ##### Dashboard
+- [change post label](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/change-post-label.php)
 - [change footer admin](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/change-footer-admin.php)
 - [disable drag metabox dashboard](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/disable-drag-metabox-dashboard.php)
 - [hide acf menu](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/hide-acf-menu.php)

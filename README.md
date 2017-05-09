@@ -23,6 +23,9 @@
 - [show admin message](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/show-admin-message.php)
 - [unregister default widgets](https://github.com/theandersonn/wp-snippets/blob/master/dashboard/unregister-default-widgets.php)
 
+##### Errors
+- [Turn off all error reporting](https://github.com/theandersonn/wp-snippets/blob/master/errors/turn-off-all-error-reporting.php)
+
 ##### Navigation
 - [get description menu](https://github.com/theandersonn/wp-snippets/blob/master/navigation/get-description-menu.php)
 - [insert breadcrumbs](https://github.com/theandersonn/wp-snippets/blob/master/navigation/insert-breadcrumbs.php)

@@ -63,6 +63,7 @@
 - [get theme information](https://github.com/theandersonn/wp-snippets/blob/master/get-theme-information.php)
 - [hide usernames from comment class](https://github.com/theandersonn/wp-snippets/blob/master/hide-usernames-from-comment-class.php)
 - [random error messages](https://github.com/theandersonn/wp-snippets/blob/master/random-error-messages.php)
+- [register sidebar](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/register-sidebar.php)
 - [remove default image thumbnails](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-default-image-thumbnails.php)
 - [remove image size attributes](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-image-size-attributes.php)
 - [remove junk header](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-junk-header.php)

@@ -45,6 +45,7 @@
 - [disable comments fields](https://github.com/theandersonn/wp-snippets/blob/master/post/disable-comments-fields.php)
 - [embedded youtube responsive](https://github.com/theandersonn/wp-snippets/blob/master/post/embedded-youtube-responsive.js)
 - [insert custom post type](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-custom-post-type.php)
+- [insert disqus](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-insert-disqus.php)
 - [insert more buttons editor](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-more-buttons-editor.php)
 - [insert pagination 1](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination-1.php)
 - [insert pagination 2](https://github.com/theandersonn/wp-snippets/blob/master/post/insert-pagination-2.php)

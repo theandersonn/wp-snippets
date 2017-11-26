@@ -71,6 +71,7 @@
 - [remove max srcset image width](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-max-srcset-image-width.php)
 - [remove recent comment style](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-recent-comment-style.php)
 - [remove theme suport](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-theme-suport.php)
+- [remove ver css js](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/remove-ver-css-js.php)
 - [user check disables features](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/user-check-disables-features.php)
 - [stop loading acf js and css all pages](https://github.com/theandersonn/wp-snippets/blob/master/theme-suport/stop-loading-acf-js-css-all-pages.php)
 

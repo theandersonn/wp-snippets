@@ -40,6 +40,7 @@
 - [after all post content](https://github.com/theandersonn/wp-snippets/blob/master/post/after-all-post-content.php)
 - [category count](https://github.com/theandersonn/wp-snippets/blob/master/post/category-count.php)
 - [change post label](https://github.com/theandersonn/wp-snippets/blob/master/post/change-post-label.php)
+- [count publish posts](https://github.com/theandersonn/wp-snippets/blob/master/post/count-publish-posts.php)
 - [count view posts](https://github.com/theandersonn/wp-snippets/blob/master/post/count-view-posts.php)
 - [custom post title length](https://github.com/theandersonn/wp-snippets/blob/master/post/custom-post-title-length.php)
 - [custom result search](https://github.com/theandersonn/wp-snippets/blob/master/post/custom-result-search.php)

@@ -71,3 +71,8 @@ define ('EMPTY_TRASH_DAYS', 7); // padrão 30 dias, 0 para desabilitar
 ```php
 define ('WPLANG', 'pt_BR');
 ```
+**Atualiza a URL base do WordPress para conter o HTTPS**
+```php
+define('WP_HOME','https://site.com/');
+define('WP_SITEURL','https://site.com/');
+```
